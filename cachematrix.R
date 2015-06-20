@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
   #Setter resets the cache.
   set<-function(y){
         x<<-y
-        resultcache<<-null
+        resultcache<<-NULL
   }
   get <- function() x
 
